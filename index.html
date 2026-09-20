@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Terra Guard</title>
+</head>
+<body>
+           <div class="header-container">
+                   <img src="logo.png" alt="Terra Guard Logo" class="header-logo">
+                   <div class="header-text">
+                         <h1 id="header">Terra Guard</h1>
+                         <h4 id="sub-header">AI-Based early warning and landslide Risk Monitoring System for NER</h4>
+                         <h4 id="sub-header">*Prototype by team ( D-variables )</h4>
+                     </div>
+            </div>
+
+            <div id="data-container">
+                 <div class = "info-tile">
+                       <form class = "search">
+                           <input type = "text" class = "city-input" placeholder = "Enter city  name">
+                           <button type = "submit" id="submit-button" >Get Info</button>
+                      </form>
+                      <h1 class = "location">Location: Gangtok</h1>
+                      <p class = "latitude">Latitude: 27.338936°</p>
+                      <p class = "longitude ">Longitude: 88.606506°</p>
+                      <p class = "risk">Risk: 95%</p>
+                      <p class = "status">Status: Critical</p>
+                 </div>
+
+                 <div id="mapcontainer">
+
+                 </div>
+             </div>
+
+             <div id = "current-conditions">
+                <h1 id = "current-header">Current conditions</h1>
+                   <div id = "details1">
+                        <p>Rainfall: 210 mm</p>
+                        <p>Soil Moisture: 81% saturation</p>
+                        <p>Slope: 57°</p>
+                        <p>Elevation: 1,900 m</p>
+                   </div>
+             </div>
+
+             <div id = "ai-details">
+                <h2 id = "ai-prediction">AI Prediction</h2>
+                <div id = "details2">
+                <p>Landslide probability: High</p>
+                <p>Risk Level: 95%</p>
+                <p>Main contributing Factors: 210 mm downpour in 5 hours </p>
+                </div>
+             </div>
+
+                <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+                <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+                 <script src ="script.js"></script>
+</body>
+</html>

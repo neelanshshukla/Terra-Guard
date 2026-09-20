@@ -1,0 +1,139 @@
+body
+{
+    margin:0px;
+    background-color:rgb(161, 107, 41);
+    display:flex;
+    flex-direction:column;
+}
+.header-container
+{
+    background-color:rgb(140, 196, 72);
+    display:flex;
+    align-items:center;
+    gap:15px;
+    border-top:4px solid black;
+    border-bottom: 4px solid black;
+}
+.header-logo
+{
+    width:150px;
+    height:150px;
+    object-fit: contain;
+    margin-left:25px;
+}
+#header
+{ 
+    color:black;
+    margin:0px;
+    font-size:45px;
+}
+#sub-header
+{
+    color:black;
+    font-size:16px;
+    margin:15px 0 0 0 ;
+}
+#data-container
+{
+    display:flex;
+    flex-direction:row;
+}
+.city-input
+{
+
+    background-color:rgb(195, 151, 95) ;
+    font-size:25px;
+    border-radius:5px;
+}
+#submit-button
+{
+    background-color:rgb(165, 112, 42);
+    font-size:20px;
+    border-radius:5px;
+}
+.info-tile
+{
+    border: 2px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    padding:14px;
+    border-radius:10px;
+    margin:10px;
+    display:flex;
+    flex-direction:column;
+    background-color:rgb(244, 206, 159);
+    width:30%;
+    height:540px;
+}
+.location
+{
+    font-size:29px;
+}
+.latitude
+{
+     font-size:29px;
+}
+.longitude
+{
+     font-size:29px;
+}
+.risk
+{
+     font-size:29px;
+}
+.status
+{
+     font-size:29px;
+}
+#mapcontainer
+{
+    border:2px solid black;
+    border-radius:10px;
+    margin:10px;
+    background-color:rgb(240, 240, 240);
+    height:540px;
+    width:70%;
+}
+#current-conditions
+{
+    border:2px solid black;
+    padding:5px;
+    border-radius:10px;
+    margin-top:10px;
+    background-color:rgb(244, 206, 159);
+    height:120px;
+    margin:10px;
+}
+#current-header
+{
+    margin-top:2px;
+    margin-left:10px;
+}
+#details1
+{
+    font-size:20px;
+    margin:10px;
+    display:flex;
+    flex-direction:row;
+    gap:260px;
+}
+#ai-prediction
+{
+    margin-left:10px;
+    margin-top:2px;
+}
+#ai-details
+{
+    background-color:rgb(244, 206, 159);
+    font-size:20px;
+    padding:10px;
+    margin:10px;
+    border:2px solid black;
+    border-radius:10px;
+}
+#details2
+{
+    margin-left:10px;
+    gap:100px;
+    display:flex;
+    flex-direction:row;
+}
